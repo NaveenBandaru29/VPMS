@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin | Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      deref
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      deref
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><b>Vehicle Parking Management System</b></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex justify-content-cente-md active"
+                aria-current="page"
+                href="adminHome.html"
+                >
+                <img src="home_white_24dp.svg" class="mx-1" />
+                Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link d-flex justify-content-cente-md dropdown-toggle"
+                href="#"
+                id="category"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Category
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Two Wheeler</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Four Wheeler</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link d-flex justify-content-cente-md dropdown-toggle"
+                href="#"
+                id="vehicle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Vehicle
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Add Vehicle</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Incoming Vehicle</a></li>
+                <li><a class="dropdown-item" href="#">Outgoing Vehicle</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="reports"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Reports
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">reports</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">report Vehicle</a></li>
+                <li><a class="dropdown-item" href="#">report Vehicle</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <ul class="navbar-nav">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+              <li class="nav-item">
+                <a href="#" class="nav-link">ChangePassword</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Logout</a>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- SOme text -->
+    <div class="container">
+      <h1>Some Random Text</h1>
+    <p >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, eius, sint
+      consectetur iure dolor, enim illum rerum amet dignissimos facilis nisi
+      ipsam. Corporis quos modi nobis nostrum accusantium laborum assumenda?
+    </p>
+  </div>
+    <!-- Cards -->
+    <!-- Cards -->
+    <div class="container my-3">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-body text-center">
+              <h5 class="card-title"><b>Today Vechicle Entries</b></h5>
+              <!-- <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p> -->
+              <a href="#" class="btn btn-primary" style="width: 200px">0</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card border-info mb-3">
+            <div class="card-body text-center">
+              <h5 class="card-title"><b>Yesterday's Vechicle Entries</b></h5>
+              <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+              <a href="#" class="btn btn-outline-info" style="width: 200px"
+                >0</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card border-danger mb-3">
+            <div class="card-body text-center">
+              <h5 class="card-title"><b>Last 7 days Vechicle Entries</b></h5>
+              <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+              <a href="#" class="btn btn-outline-danger" style="width: 200px"
+                >0</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card text-white bg-success mb-3">
+            <div class="card-body text-center">
+              <h5 class="card-title">Last Month Vehicle entires</h5>
+              <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+              <a href="#" class="btn btn-primary" style="width: 200px">0</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
